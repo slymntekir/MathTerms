@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tekir.suleyman.sayilar.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_sayi"
+        android:layout_marginTop="5dp"
+        android:hint="Sayı Giriniz..."
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hesapla"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:onClick="hesapla"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_sonuc"
+                android:layout_marginTop="5dp"
+                android:textSize="28dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sayının Asal Çarpanları"
+                android:layout_marginTop="5dp"
+                android:textSize="30dp"
+                android:textColor="#1707e9"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_carpan"
+                android:layout_marginTop="5dp"
+                android:textSize="28dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Pozitif Bölen Sayısı"
+                android:textSize="30dp"
+                android:textColor="#1707e9"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_pbs"
+                android:layout_marginTop="5dp"
+                android:textSize="30dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Sayının Pozitif Bölenleri"
+                android:textSize="30dp"
+                android:textColor="#1707e9"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_bln"
+                android:layout_marginTop="5dp"
+                android:textSize="30dp"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

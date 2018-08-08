@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_anasayfa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tekir.suleyman.sayilar.Anasayfa"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asal Çarpan"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:onClick="asalCarpan"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bölünebilme"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:onClick="bolunebilme"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aralarında Asal mı ?"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:onClick="aralarindaAsal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ebob - Ekok"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:onClick="ebob"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alt küme sayısı"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:onClick="altkumesayisi"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="üs(kuvvet) alma"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:onClick="kuvvet_alma"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kök alma"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:onClick="kok_alma" />
+
+</LinearLayout>

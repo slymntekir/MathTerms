@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="">
+
+    <!--
+    <item
+        android:id="@+id/hakkinda"
+        android:title="Hakkinda"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    -->
+
+    <item
+        android:id="@+id/action_cikis"
+        android:title="@string/ana_sayfa"
+        android:orderInCategory="100"
+        android:icon="@mipmap/home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_cikis1"
+        android:title="@string/cikis"
+        android:orderInCategory="100"
+        android:icon="@mipmap/quit"
+        app:showAsAction="always" />
+
+
+</menu>
